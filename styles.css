@@ -324,6 +324,9 @@ nav {
   border-radius: 3rem;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
+.popular__card img {
+min-height: 250px;
+}
 
 .popular__content {
   position: relative;
