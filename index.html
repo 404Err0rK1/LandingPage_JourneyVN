@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>TravelVN Tour | Design TP</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#">Journey<span>VN</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Trang Chủ</a></li>
+      <li><a href="#about">Giới Thiệu</a></li>
+      <li><a href="#package">Gói Du Lịch</a></li>
+      <li><a href="#contact">Liên Hệ</a></li>
+    </ul>
+    <div class="nav__btns">
+      <button class="btn">Đăng Ký</button>
+    </div>
+  </nav>
+
+  <header class="section__container header__container" id="home">
+    <div class="header__content">
+      <h1><span>Hãy</span> Biến Chuyến Đi Này Trở Nên Đáng Nhớ</h1>
+      <p class="section__description">
+        Khởi hành cùng chúng tôi trong một cuộc phiêu lưu không thể quên! Khám phá những điểm đến tuyệt đẹp, tạo ra
+        những kỷ niệm đáng nhớ và đảm bảo mỗi chuyến đi đều tuyệt vời.
+      </p>
+      <form action="/">
+        <div class="input__group">
+          <label for="location">Địa Điểm</label>
+          <input type="text" name="location" placeholder="Việt Nam" />
+        </div>
+        <div class="input__group">
+          <label for="date">Ngày</label>
+          <input type="text" name="date" placeholder="01 Tháng 5, 2024" />
+        </div>
+        <div class="input__group">
+          <label for="price">Giá</label>
+          <input type="text" name="price" placeholder="$ 42,000" />
+        </div>
+        <button class="btn"><i class="ri-search-line"></i></button>
+      </form>
+    </div>
+    <div class="header__image">
+      <img src="assets/header-1.jpg" alt="header" />
+      <img src="assets/header-2.jpg" alt="header" />
+      <img src="assets/header-3.jpg" alt="header" />
+    </div>
+  </header>
+
+  <section class="section__container choose__container" id="about">
+    <div class="choose__image">
+      <img src="assets/choose.jpg" alt="choose" />
+    </div>
+    <div class="choose__content">
+      <p class="section__subheader">Tại Sao Chọn Chúng Tôi?</p>
+      <h2 class="section__header">Lên Kế Hoạch Chuyến Đi <span>Cùng Chúng Tôi</span></h2>
+      <ul class="choose__list">
+        <li>
+          <span><i class="ri-verified-badge-fill"></i></span>
+          <div>
+            <h4>Bảo Đảm Giá Tốt Nhất</h4>
+            <p>
+              Chúng tôi đảm bảo bạn nhận được mức giá cạnh tranh nhất cho kế hoạch du lịch của mình, biến những điểm đến
+              mơ ước trở nên khả thi.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span><i class="ri-calendar-fill"></i></span>
+          <div>
+            <h4>Tùy Chọn Đặt Chỗ</h4>
+            <p>
+              Trải nghiệm sự linh hoạt với các tùy chọn đặt chỗ được điều chỉnh phù hợp với lịch trình và sở thích của
+              bạn.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span><i class="ri-road-map-fill"></i></span>
+          <div>
+            <h4>Bản Đồ Hành Trình Cập Nhật</h4>
+            <p>
+              Điều hướng chuyến phiêu lưu của bạn với bản đồ hành trình cá nhân hóa, được thiết kế để mang lại trải
+              nghiệm du lịch liền mạch và thú vị.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section__container popular__container" id="package">
+    <p class="section__subheader">Điểm Đến Nổi Tiếng</p>
+    <h2 class="section__header">Những Điểm Đến <span>Phổ Biến</span></h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-1.jpg" alt="popular" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.0(34) 😊
+              </div>
+              <h4>Hạ Long Bay</h4>
+              <p><span>VND 28,000,000</span> /Người</p>
+              <div class="popular__card__footer">
+                <div>
+                  <span><i class="ri-time-line"></i></span> 4 Ngày
+                </div>
+                <div>
+                  <span><i class="ri-group-3-fill"></i></span> 15+
+                </div>
+                <div>
+                  <span><i class="ri-map-pin-2-fill"></i></span> Việt Nam
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-2.jpg" alt="popular" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.5(55) 😘
+              </div>
+              <h4>Hội An</h4>
+              <p><span>VND 15,000,000</span> /Người</p>
+              <div class="popular__card__footer">
+                <div>
+                  <span><i class="ri-time-line"></i></span> 2 Ngày
+                </div>
+                <div>
+                  <span><i class="ri-group-3-fill"></i></span> 10+
+                </div>
+                <div>
+                  <span><i class="ri-map-pin-2-fill"></i></span> Việt Nam
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-3.jpg" alt="popular" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.2(45) 😊
+              </div>
+              <h4>Đà Lạt</h4>
+              <p><span>VND 18,000,000</span> /Người</p>
+              <div class="popular__card__footer">
+                <div>
+                  <span><i class="ri-time-line"></i></span> 3 Ngày
+                </div>
+                <div>
+                  <span><i class="ri-group-3-fill"></i></span> 20+
+                </div>
+                <div>
+                  <span><i class="ri-map-pin-2-fill"></i></span> Việt Nam
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-4.jpg" alt="popular" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.8(25) 😘
+              </div>
+              <h4>Huế</h4>
+              <p><span>VND 30,000,000</span> /Người</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <section class="section__container client__container">
+    <p class="section__subheader">Khách Hàng Nói Gì?</p>
+    <h2 class="section__header">Phản Hồi <span>Khách Hàng</span></h2>
+    <div class="client__card active">
+      <img src="assets/client-1.jpg" alt="client" />
+      <div class="client__content">
+        <h4>Emma Johnson</h4>
+        <h5>Blogger du lịch</h5>
+        <p>
+          Nền tảng du lịch này đã biến những giấc mơ trong danh sách xô của tôi thành hiện thực! Quá trình đặt chỗ rất liền mạch, và đội ngũ của họ cung cấp hướng dẫn tuyệt vời về những điểm đến phải đến. Mọi bước đi đều cảm thấy dễ dàng và tôi không thể chờ đợi để lên kế hoạch cho cuộc phiêu lưu tiếp theo của mình với họ. Rất được khuyến khích!
+        </p>
+      </div>
+    </div>
+    <div class="client__card">
+      <img src="assets/client-2.jpg" alt="client" />
+      <div class="client__content">
+        <h4>Sophia Lee</h4>
+        <h5>Kỹ Sư Phần Mềm</h5>
+        <p>
+          Du lịch với dịch vụ này thật tuyệt vời! Các tùy chọn đặt chỗ linh hoạt đã cho tôi sự tự do lên kế hoạch theo tốc độ của mình, và các hành trình chi tiết đảm bảo rằng tôi không bỏ lỡ bất cứ điều gì quan trọng. Tôi cảm thấy họ thực sự quan tâm đến việc tạo ra trải nghiệm du lịch hoàn hảo cho tôi. Thật tuyệt vời!
+        </p>
+      </div>
+    </div>
+    <div class="client__card">
+      <img src="assets/client-3.jpg" alt="client" />
+      <div class="client__content">
+        <h4>Michael Roberts</h4>
+        <h5>Nhiếp Ảnh Gia</h5>
+        <p>
+          Là một nhiếp ảnh gia, tìm kiếm những địa điểm đẹp là điều quan trọng, và nền tảng này đã vượt qua mong đợi của tôi. Họ không chỉ làm cho việc đặt chỗ trở nên dễ dàng mà còn giúp tôi khám phá một số địa điểm ẩn tuyệt vời. Sự chú ý đến chi tiết của họ đã làm cho hành trình của tôi trở nên không thể quên và không gặp rắc rối!
+        </p>
+      </div>
+    </div>
+    <div class="client__btns">
+      <button class="btn" id="prev">
+        <i class="ri-arrow-left-line"></i>
+      </button>
+      <button class="btn" id="next">
+        <i class="ri-arrow-right-line"></i>
+      </button>
+    </div>
+  </section>
+  
+  <section class="section__container subscribe__container" id="contact">
+    <h2 class="section__header">
+      Đăng Ký Để Nhận Tin Tức Mới Nhất <span>Về Chúng Tôi</span>
+    </h2>
+    <p class="section__description">
+      Hãy cập nhật với các chương trình du lịch mới nhất, điểm đến nổi bật và ưu đãi độc quyền. Đăng ký ngay bây giờ và đừng bỏ lỡ tin tức thú vị và cập nhật về dịch vụ của chúng tôi!
+    </p>
+    <form action="/">
+      <input type="text" placeholder="Email Của Bạn" />
+      <button class="btn">Đăng Ký</button>
+    </form>
+  </section>
+  
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#">JourneyVN</a>
+        </div>
+        <p>
+          Khám phá thế giới cùng chúng tôi! Kết nối thông qua các kênh truyền thông xã hội của chúng tôi, tìm các liên kết nhanh đến các nguồn tài nguyên cần thiết, và truy cập hỗ trợ 24/7 để làm cho việc lên kế hoạch du lịch của bạn trở nên dễ dàng.
+        </p>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Dịch Vụ</h4>
+        <ul class="footer__links">
+          <li><a href="#">Về Chúng Tôi</a></li>
+          <li><a href="#">Điểm Đến</a></li>
+          <li><a href="#">Dịch Vụ</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+          <li><a href="#">Riêng Tư</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Instagram</h4>
+        <div class="footer__col__flex">
+          <img src="assets/instagram-1.jpg" alt="instagram" />
+          <img src="assets/instagram-2.jpg" alt="instagram" />
+          <img src="assets/instagram-3.jpg" alt="instagram" />
+          <img src="assets/instagram-4.jpg" alt="instagram" />
+          <img src="assets/instagram-5.jpg" alt="instagram" />
+          <img src="assets/instagram-6.jpg" alt="instagram" />
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Liên Hệ</h4>
+        <ul class="footer__links">
+          <li>
+            <a href="#">
+              <span><i class="ri-phone-fill"></i></span> +84 0987654321
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-map-pin-fill"></i></span> Hà Nội, Việt Nam
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-mail-fill"></i></span> info@dulich
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 Tuan Phat - 404Err0rK1. All rights reserved.
+    </div>
+  </footer>
+  
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
